@@ -11,7 +11,7 @@ M.base = {
 
   Boolean = { fg = c.orange },
   Character = { fg = c.green },
-  ColorColumn = { bg = c.dark },
+  ColorColumn = { bg = c.dark_gray },
   Comment = { fg = c.gray },
   Conceal = { fg = c.accent, bg = config.transparent_background and 'NONE' or c.bg },
   Conditional = { fg = c.purple },
@@ -84,7 +84,7 @@ M.base = {
   SpellLocal = { fg = c.green, style = 'underline' },
   SpellRare = { fg = c.purple, style = 'underline' },
   Statement = { fg = c.purple },
-  StatusLine = { fg = c.ui_blue, bg = c.fg },
+  StatusLine = { fg = c.hint_blue, bg = c.bg },
   StatusLineNC = { fg = c.gray, bg = c.bg },
   StatusLineSeparator = { fg = c.gray },
   StatusLineTerm = { fg = c.gray },
